@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8" />
+<title>Великі тексти та робота із заголовками</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    line-height: 1.6;
+    padding: 0 15px;
+    background: #f9f9f9;
+  }
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  h1 {
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 8px;
+  }
+  p {
+    margin: 1em 0;
+    text-align: justify;
+  }
+  strong {
+    color: #2980b9;
+  }
+  em {
+    font-style: italic;
+    color: #e67e22;
+  }
+  u {
+    text-decoration: underline;
+    color: #27ae60;
+  }
+  mark {
+    background-color: #f39c12;
+    color: white;
+    padding: 0 4px;
+  }
+  figure {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+    max-width: 400px;
+  }
+  figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 6px;
+    border-radius: 8px;
+  }
+  figcaption {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+  }
+  nav {
+    margin-bottom: 20px;
+    background: #3498db;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#section1">Розділ 1</a>
+  <a href="#section2">Розділ 2</a>
+  <a href="#section3">Розділ 3</a>
+  <a href="https://uk.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">HTML (Вікіпедія)</a>
+</nav>
+
+<h1>Великий текст із заголовками та форматуванням</h1>
+
+<section id="section1">
+  <h2>Розділ 1: Вступ</h2>
+  <p>HTML — це <strong>мова розмітки</strong>, яка використовується для створення веб-сторінок. Вона дозволяє структурувати контент, використовуючи <em>заголовки</em>, <u>параграфи</u>, <mark>зображення</mark> та багато іншого.</p>
+
+  <figure>
+    <img src="images/html_logo.png" alt="HTML Logo" />
+    <figcaption>Логотип HTML5</figcaption>
+  </figure>
+
+  <p>У цьому документі ми навчимося працювати з великими обсягами тексту, використовувати заголовки різних рівнів, вставляти зображення, робити внутрішні посилання та зовнішні посилання.</p>
+</section>
+
+<section id="section2">
+  <h2>Розділ 2: Форматування тексту</h2>
+  <p>Для виділення тексту використовуються різні теги. Наприклад, <strong>жирний текст</strong> робиться за допомогою тегу <code>&lt;strong&gt;</code>. Для курсиву використовується тег <code>&lt;em&gt;</code>. Підкреслення виконує тег <code>&lt;u&gt;</code>, а підсвічування — тег <code>&lt;mark&gt;</code>.</p>
+
+  <figure>
+    <img src="images/text_format.png" alt="Text formatting example" />
+    <figcaption>Приклад форматування тексту</figcaption>
+  </figure>
+
+  <p>Ці теги допомагають зробити текст більш читабельним і виділити важливу інформацію.</p>
+</section>
+
+<section id="section3">
+  <h2>Розділ 3: Посилання</h2>
+  <p>У документі можна робити посилання на інші частини сторінки, наприклад на <a href="#section1">Розділ 1</a> або на зовнішні ресурси, такі як <a href="https://uk.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer">стаття про CSS у Вікіпедії</a>.</p>
+
+  <p>Використання посилань покращує навігацію та зв’язок між різними частинами інформації.</p>
+
+  <figure>
+    <img src="images/links.png" alt="Links example" />
+    <figcaption>Приклад використання посилань</figcaption>
+  </figure>
+</section>
+
+</body>
+</html>
